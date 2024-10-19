@@ -1,6 +1,20 @@
+@import url(vars.css);
+@import url(header.css);
+
 html, body {
   margin: 0;
   padding: 0;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  scroll-behavior:smooth;
+  background-color: var(--primary-background-color);
+  color: var(--primary-font-color);
+
+  font: 16px Verdana;
 }
 
+
+
+
+main#login{
+  display: flex;
+  flex-direction: column;
+}
