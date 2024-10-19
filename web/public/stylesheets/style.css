@@ -1,6 +1,7 @@
 @import url(vars.css);
 @import url(header.css);
 @import url(cta.css);
+@import url(pelis.css);
 
 html, body {
   margin: 0;

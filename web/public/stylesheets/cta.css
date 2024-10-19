@@ -12,6 +12,19 @@ section#cta{
     align-items: center;
     text-align: center;
 
+    h1{        
+        font-size: 27px;
+        margin-top: auto;        
+    }
+
+    h4{
+        margin-bottom: 120px;
+    }
+
+    p{
+        margin-bottom: 30px;
+    }
+
     a{
         text-decoration: none;
         color: var(--primary-font-color);

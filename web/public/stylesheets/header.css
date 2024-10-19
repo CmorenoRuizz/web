@@ -1,6 +1,6 @@
 header#top{
     nav{
-        background-color: var(--primary-nav-footer-background-color);
+        background-color: var(--primary-background-color);
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
