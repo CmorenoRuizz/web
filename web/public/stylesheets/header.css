@@ -17,18 +17,18 @@ header#top{
             margin-right: 80px;
             text-decoration: none;
             color: var(--primary-font-color);            
-            transition: 0.4s;            
+            transition: 0.3s;            
         }
 
         a:hover{
-            transform: rotate(-10deg);            
+            transform: rotate(10deg);            
         }
 
         a.exit{
             color: var(--primary-a-color);
         }
 
-        p{
+        h4{
             margin-left: auto;
         }
 
