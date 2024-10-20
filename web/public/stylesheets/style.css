@@ -4,6 +4,7 @@
 @import url(pelis.css);
 @import url(footer.css);
 @import url(login.css);
+@import url(contacto.css);
 
 html, body {
   margin: 0;
