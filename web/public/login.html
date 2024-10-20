@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CineArchivo - Contacto</title>
+    <title>CineArchivo - Iniciar sesión</title>
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="javascripts/front.js"></script>
 </head>
 <body>
     
@@ -16,18 +17,49 @@
             <a href="">Copias</a>
             <a href="contacto.html">Soporte</a>
             <a class="exit" href="login.html">Salir</a>
-            <p>Explora nuestras secciones</p>
+            <h4>Explora nuestras secciones</h4>
         </nav>
     </header>
 
-    <main id="login">
+    <main>
 
-        <section>
-            <h1>Login</h1>
+        <section  id="login">
+            <div class="formulariologin">
+                <h1>Inicia sesión para ver tu colección</h1>
+                <form action="">
+                    <label for="usuario">Nombre de usuario:</label>
+                    <input type="text" name="usuario" id="usuario" placeholder="Nombre de usuario">
+                    <label for="contrasenya">Contraseña:</label>
+                    <input type="text" name="contrasenya" id="contrasenya" placeholder="Contraseña">
+                    <input class="loginnormal" type="submit" name="logear" id="logear" value="Iniciar sesión">
+                    <a href="">¿Olvidaste tu contraseña?</a>
+                    <a href="">¿No tienes cuenta? Regístrate</a>
+                    <input class="logingoogle" type="button" name="logeargoogle" id="logeargoogle" value="Iniciar sesión con Google">
+                    <input class="loginfacebook" type="button" name="logearfacebook" id="logearfacebook" value="Iniciar sesión con Facebook">
+                </form>
+            </div>
+            <div class="logologin"><img src="images/logo.png" alt="CineArchivo"></div>
         </section>
 
 
     </main>
+
+    <footer>
+        <div><a href="#">ir arriba</a></div>
+        <div>
+            <p>© 2024 CineArchivo.</p>
+            <a href="">Política de privacidad</a>
+            <p> | </p>
+            <a href="">Términos de uso</a>
+            <p> | </p>
+            <a href="contacto.html">Contacto</a>
+        </div>
+        <div>
+            <img src="images/X_logo_2023.svg.webp" alt="twitter">
+            <img src="images/facebook-social-logo.svg" alt="facebook">
+            <img src="images/instagram-logo.svg" alt="instagram">
+        </div>
+    </footer>
 
 
 </body>
